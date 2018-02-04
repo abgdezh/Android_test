@@ -6,39 +6,37 @@
     android:layout_height="match_parent"
     tools:context="com.example.mb.myapplication.MainActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
         <ScrollView
+            android:id="@+id/scroll"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_above="@id/bottom"
-            android:layout_weight="0.90">
-
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
             <LinearLayout
                 android:id="@+id/list"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="vertical">
+
+            </LinearLayout>
+
         </ScrollView>
 
         <LinearLayout
             android:id="@+id/bottom"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".10"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff">
 
             <EditText
                 android:id="@+id/editText"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight=".70"
                 android:ems="10"
                 android:inputType="textPersonName"
@@ -50,8 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".30"
                 android:text="Add" />
+
         </LinearLayout>
-
-
-    </LinearLayout>
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

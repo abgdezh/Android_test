@@ -3,15 +3,12 @@ package com.example.mb.myapplication;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.ScrollView;
 
 public class MainActivity extends AppCompatActivity {
-
     private Button createButton(String text) {
         Button button = new Button(this);
         button.setText(text);
@@ -31,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
                 String text = editText.getText().toString();
                 editText.setText("");
                 linearLayout.addView(createButton(text));
+                ScrollView scrollView = findViewById(R.id.scroll);
+                scrollView.fullScroll(ScrollView.FOCUS_DOWN);
             }
         });
     }
