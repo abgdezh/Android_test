@@ -50,5 +50,15 @@
                 android:text="Add" />
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/vk_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="140dp"
+            android:layout_marginEnd="101dp"
+            android:text="ВК" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

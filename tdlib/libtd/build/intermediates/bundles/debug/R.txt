@@ -1,1 +1,2 @@
+int integer com_vk_sdk_AppId 0x7f0d0001
 int string app_name 0x7f150001

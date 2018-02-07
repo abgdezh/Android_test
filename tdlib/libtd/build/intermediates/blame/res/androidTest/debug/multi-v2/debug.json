@@ -6,11 +6,18 @@
                 {
                     "source": "/home/dmitry/Code/Android_test/tdlib/libtd/build/intermediates/bundles/debug/res/values/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "39",
-                        "endOffsets": "90"
+                        "startLines": "2,-1",
+                        "startColumns": "4,-1",
+                        "startOffsets": "55,-1",
+                        "endColumns": "54,-1",
+                        "endOffsets": "105,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,39",
+                        "endOffsets": "105,145"
                     }
                 }
             ]

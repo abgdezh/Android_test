@@ -7,6 +7,9 @@
 package org.drinkless.td.libcore;
 
 public final class R {
+    public static final class integer {
+        public static int com_vk_sdk_AppId = 0x7f0d0001;
+    }
     public static final class string {
         public static int app_name = 0x7f150001;
     }
