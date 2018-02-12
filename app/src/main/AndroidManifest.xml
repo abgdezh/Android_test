@@ -13,18 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            android:name=".Aggregator"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".vk_dialogs"
-            android:label="@string/title_activity_vk_dialogs"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
