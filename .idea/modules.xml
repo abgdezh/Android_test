@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android_test.iml" filepath="$PROJECT_DIR$/Android_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdlib/libtd/libtd.iml" filepath="$PROJECT_DIR$/tdlib/libtd/libtd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdlib/libtd/libtd.iml" filepath="$PROJECT_DIR$/tdlib/libtd/libtd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sfdggf.iml" filepath="$PROJECT_DIR$/sfdggf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vksdk_library/vksdk_library.iml" filepath="$PROJECT_DIR$/vksdk_library/vksdk_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/vksdk_library/vksdk_library.iml" filepath="$PROJECT_DIR$/vksdk_library/vksdk_library.iml" />
     </modules>
   </component>

@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/home/dmitry/Code/sfdggf/tdlib/libtd/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/dmitry/Code/sfdggf/tdlib/libtd/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,39",
+                        "endOffsets": "105,145"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/dmitry/Code/Android_test/tdlib/libtd/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
             "map": [
                 {
